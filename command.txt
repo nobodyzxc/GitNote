@@ -26,9 +26,11 @@ git reflog
 # see all log (include removed , backed)
 
 git reset --hard [ id ]
-# change version [id] = [ HEAD | HEAD^ | HEAD*^ | HEAD~(number) | (number) ]
+# change version pointer (HEAD)
+# [id] = [ HEAD | HEAD^ | HEAD*^ | HEAD~(number) | (number) ]
 
-git reset  HEAD fileName
+git reset HEAD fileName
+# recover some file form HEAD to worksapce
 # remove add record in stage
 
 git checkout -- fileName
