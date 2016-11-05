@@ -35,3 +35,7 @@ git reset HEAD fileName
 
 git checkout -- fileName
 # recover file in worksapce to stage or warehouse
+
+git rm
+# remove file in warehouse, 
+# and if you rm file by accident, you can use checkout to recover
