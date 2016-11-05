@@ -1,5 +1,22 @@
+#nobodyzxc git note
+
 git config --global user.name nobodyzxc
 git config --global user.email dici86.chen@gmail.com
+
 git init
+
 git add readme.txt
+# add a file to current commit queue
+
 git commit -m "wrote a readme file"
+# commit files added by you
+# [-n] to commit without msg
+
+git status
+# see modifiy records(current file compare with .git/file)
+# if file modified and wait to commit , it will be green , or it will be red
+
+git diff
+# details about modified content
+
+
