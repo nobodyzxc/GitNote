@@ -1,0 +1,5 @@
+git config --global user.name nobodyzxc
+git config --global user.email dici86.chen@gmail.com
+git init
+git add readme.txt
+git commit -m "wrote a readme file"
