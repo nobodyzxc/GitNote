@@ -56,11 +56,17 @@ git push -u origin master
 git checkout -b dev
 # create a new dev and point on it
 # equal to the two commands below
-
 => git branch dev
 => git checkout dev
 
 git branch
 # see the branchs
 
+git checkout master
+# add => commit => save dev => switch to master
 
+git merge dev
+# merge dev to master
+
+git branch -d dev
+# delete merge
