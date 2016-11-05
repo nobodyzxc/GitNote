@@ -19,4 +19,14 @@ git status
 git diff
 # details about modified content
 
+git log [--pretty=oneline]
+# see main version log
+
+git reset --hard [ id ]
+# [id] = [ HEAD | HEAD^ | HEAD*^ | HEAD~(number) | (number) ]
+
+git reflog
+# see all log (include removed , backed)
+
+
 
