@@ -19,7 +19,7 @@ git status
 git diff [ HEAD -- fileName ]
 # details about modified content [ compare file in HEAD and file in worksapce ]
 
-git log [--pretty=oneline]
+git log [--pretty=oneline] [--graph] [--abbrev-commit]
 # see main version log
 
 git reflog
