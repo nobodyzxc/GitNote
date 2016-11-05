@@ -22,11 +22,14 @@ git diff [ HEAD -- fileName ]
 git log [--pretty=oneline]
 # see main version log
 
-git reset --hard [ id ]
-# [id] = [ HEAD | HEAD^ | HEAD*^ | HEAD~(number) | (number) ]
-
 git reflog
 # see all log (include removed , backed)
 
+git reset --hard [ id ]
+# change version [id] = [ HEAD | HEAD^ | HEAD*^ | HEAD~(number) | (number) ]
 
+git reset  HEAD fileName
+# remove add record in stage
 
+git checkout -- fileName
+# recover file in worksapce to stage or warehouse
