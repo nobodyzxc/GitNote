@@ -3,4 +3,3 @@ Git is free software.
 Git has a mutable index called stage.
 
 create a new branch
-conflict happened!
