@@ -65,8 +65,19 @@ git branch
 git checkout master
 # add => commit => save dev => switch to master
 
-git merge dev
-# merge dev to master
+git merge [--no-ff] dev
+# merge [no fast forward mod(possible ignore some info] dev to master
 
 git branch -d dev
 # delete merge
+
+###############################################
+
+git commit --amend
+# revise last commit comment
+
+git rebase -i HAED~[number]
+# revise previous commit comment
+# change pick to edit
+=> git commit --amend
+=> git rebase --continue
