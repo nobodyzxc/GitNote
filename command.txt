@@ -16,8 +16,8 @@ git status
 # see modifiy records(current file compare with .git/file)
 # if file modified and wait to commit , it will be green , or it will be red
 
-git diff
-# details about modified content
+git diff [ HEAD -- fileName ]
+# details about modified content [ compare file in HEAD and file in worksapce ]
 
 git log [--pretty=oneline]
 # see main version log
